@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    display: flex;  
+    background-color: transparent;
+    
+}
+body{
+    background-color: rgb(243, 253, 251);
+    width: vh;
+    
+}
+
+#cont{
+    justify-content: space-around;
+}
+
+
+#header{
+    color: rgb(26, 23, 23);
+ margin-left: 50px;
+ 
+}
+
+#menu{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-right: 50px;
+    color: rgb(27, 25, 25);
+    
+}
+
+
+#menu li{
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(32, 27, 27)
+   
+
+}
+
+#menu a{
+    text-decoration: none;
+    color: #333;
+}
+#menu a:hover{
+    color: #6fd649;
+}
+
+#images{
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+#line{
+  
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:  20px;
+    
+}
+
+#movies{
+   text-align: justify;
+}
+
+#cards{
+    text-align: left;
+    margin-right: 20px;
+}
+
+#btn{
+    justify-content: center;
+
+    border: 10px;
+}
+p{
+    color: rgb(5, 5, 5);
+    font-size: large;
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+}
+h2{
+    color: rgb(5, 5, 5);
+}
+li{
+    color: rgb(5, 5, 5);
+}
+
+.card{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(142, 238, 238);
+    border-radius: 10px;
+}
+
+#ticket{
+    padding: 0 30px 30px;
+    left: 50%;
+    top: 50%;
+    margin-left: 25%;
+    margin-right: 25%;    
+    justify-content: space-around;
+    border: 6px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+#ticket label{
+    font-weight: 500;
+    font-size: 28px;
+}
+
+#ticket button{
+    width: 20%;
+    margin-top: 30px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.btn{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5x 5px rgba(0,0,0, 0.2);
+
+
+}
+
+.btnContainer{
+    width: 400px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 6px;
+    left: 40%;
+    
+}
+
+#buttons{
+    padding: 10px 60px;
+   
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+

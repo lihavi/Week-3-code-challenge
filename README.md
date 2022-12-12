@@ -27,6 +27,6 @@ To run this application:
 (git@github.com:lihavi/Week-3-code-challenge.git)
 
 *Run this command 
-`json- server --watch db.json`  
+`json-server --watch db.json`  
 ## License
 MIT license
