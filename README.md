@@ -6,8 +6,11 @@ Vivian Njoroge
 
 ## Project Description
 
-This project implements Implement a mini web application using JavaScript.
+This project implements a mini web application using JavaScript.
 
+Flatiron Movie Theater is open for business! You will be building out an
+application, Flatdango, that allows a user to purchase movie tickets from the
+theater.
 ## Requirements
 
 *vs code
@@ -28,5 +31,8 @@ To run this application:
 
 *Run this command 
 `json-server --watch db.json`  
+# To view the published HTML as a website -
+To view this website, copy and paste this link onto your browser, make sure you are running he json server.
+
 ## License
 MIT license
