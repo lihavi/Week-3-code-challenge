@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", () =>{
+  getfilms(films)
+})  
+
 const movies = document.getElementById("movies");
 const head = document.createElement("h2");
 movies.appendChild(head);

@@ -32,7 +32,9 @@ To run this application:
 *Run this command 
 `json-server --watch db.json`  
 # To view the published HTML as a website -
-To view this website, copy and paste this link onto your browser, make sure you are running he json server.
+To view this website, copy and paste this link onto your browser, make sure you are running the json server.
+
+
 
 ## License
 MIT license
