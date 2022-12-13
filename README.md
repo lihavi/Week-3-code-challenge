@@ -35,6 +35,6 @@ To run this application:
 To view this website, copy and paste this link onto your browser, make sure you are running the json server.
 
 
-
+ https://lihavi.github.io/Week-3-code-challenge/
 ## License
 MIT license
