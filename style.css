@@ -1,180 +1,125 @@
-*{
-    margin: 0;
-    padding: 0;
+body {
+    background-color:aqua;
+}
+
+
+h1 {
+    font-family: 'Nosifer', cursive;
+    color: white;
+    position: relative;
+    text-align: center;
 
 }
 
-nav {
-    display: flex;  
-    background-color: transparent;
+h3 {
+    color: white;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+#terms {
+    color: white;
+    font-size: 15px;
+    margin-left: 15px;
+    position: relative;
+
+}
+
+#film-menu{
     
-}
-body{
-    background-color: rgb(243, 253, 251);
-    width: vh;
-    
-}
-
-#cont{
-    justify-content: space-around;
-}
-
-
-#header{
-    color: rgb(26, 23, 23);
- margin-left: 50px;
- 
-}
-
-#menu{
+    cursor: pointer;
     display: flex;
-    text-align: center;
-    justify-content: space-around;
-    padding: 20px;
-    margin-right: 50px;
-    color: rgb(27, 25, 25);
+    height: 400px;
+    position: relative;
+    margin-left: 550px;
+    color: white;
     
-}
-
-
-#menu li{
-    text-decoration: none;
-    text-align: center;
-    display: inline;
-    font-size: 30px;
-    padding: 20px;
-    color: rgb(32, 27, 27)
    
-
 }
 
-#menu a{
-    text-decoration: none;
-    color: #333;
-}
-#menu a:hover{
-    color: #6fd649;
-}
-
-#images{
-    width: 600px;
-    height: 500px;
-    border-radius: 20px;
-}
-
-#line{
-  
-    display: flex;
-    justify-content: space-evenly;
-    margin-right:  20px;
-    
-}
-
-#movies{
-   text-align: justify;
-}
-
-#cards{
-    text-align: left;
-    margin-right: 20px;
-}
-
-#btn{
-    justify-content: center;
-
-    border: 10px;
-}
-p{
-    color: rgb(5, 5, 5);
-    font-size: large;
-    font-weight: bold;
-}
-
-h3{
-    font-weight: bold;
-    color: rgb(5, 5, 5);
-}
-h2{
-    color: rgb(5, 5, 5);
-}
-li{
-    color: rgb(5, 5, 5);
-}
-
-.card{
-    height: 500px;
-    width: 400px;
-    background-color: rgb(142, 238, 238);
-    border-radius: 10px;
-}
-
-#ticket{
-    padding: 0 30px 30px;
-    left: 50%;
-    top: 50%;
-    margin-left: 25%;
-    margin-right: 25%;    
-    justify-content: space-around;
-    border: 6px;
-    border-radius: 20px;
-    margin-top: 10px;
-    padding-top: 20px;
+#film-details {
+    color: white;
     text-align: center;
-}
-#ticket label{
-    font-weight: 500;
-    font-size: 28px;
+    font-size: 20px;
 }
 
-#ticket button{
-    width: 20%;
-    margin-top: 30px;
-    padding: 10px 0;
-    background: #6fd649;
-    color: #fff;
-    border: 0;
-    outline: none;
-    font-size: 18px;
+#title {
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+}
+
+#run {
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+}
+#show {
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+}
+
+#available {
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+}
+
+#runtime {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#showtime {
+    text-align: center;
+    color: white;
+    font-size: 20px
+}
+
+#Available-tickets {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+#sell {
+    text-align: center;
+    margin-left: 605px;
+    position: relative;
+    padding: 16px 22px ;
+    border: none;
     cursor: pointer;
-    border-radius: 6px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-family: 'Zen Dots', cursive;
+    
+
+}
+#film {
+    height: 100%; 
+    width: 300px; 
+    position: fixed; 
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color:aqua ;
+    padding-top: 60px; 
+    transition: 0.5s; 
+    float: left;
 }
 
-
-.btn{
-    width: 100%;
-    margin-top: 50px;
-    padding: 10px 0;
-    background: #6fd649;
-    color: #fff;
-    border: 0;
-    outline: none;
-    font-size: 18px;
-    border-radius: 4px;
+#film-item{
+    color: white;
+    float: left;
+    font-size: 20px;
     cursor: pointer;
-    box-shadow: 0 5x 5px rgba(0,0,0, 0.2);
-
-
-}
-
-.btnContainer{
-    width: 400px;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    border-radius: 6px;
-    left: 40%;
     
 }
 
-#buttons{
-    padding: 10px 60px;
-   
-    border: 0;
-    outline: none;
-    cursor: pointer;
-    font-size: 22px;
-    font-weight: 500;
-    border-radius: 30px;
+#heading {
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+    margin-top: -25px;
+    font-family: 'Permanent Marker', cursive;
 }
+
